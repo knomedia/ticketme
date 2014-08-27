@@ -30,6 +30,7 @@
   "dependencies": {
     "commander": "^2.3.0",
     "jira": "^0.10.0",
+    "path": "^0.4.9",
     "prompt": "^0.2.13"
   },
   "devDependencies": {
