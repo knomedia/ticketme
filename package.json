@@ -1,0 +1,45 @@
+{
+  "name": "ticketme",
+  "description": "Quick jira ticket creator",
+  "version": "0.0.1",
+  "homepage": "https://github.com/knomedia/ticketme",
+  "author": {
+    "name": "Jason Madsen",
+    "email": "knomedia@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/knomedia/ticketme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/knomedia/ticketme/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/knomedia/ticketme/blob/master/LICENSE.md"
+    }
+  ],
+  "main": "lib/ticketme",
+  "engines": {
+    "node": "0.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1'"
+  },
+  "dependencies": {
+    "commander": "^2.3.0",
+    "jira": "^0.10.0",
+    "prompt": "^0.2.13"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.12"
+  },
+  "keywords": [
+    "jira"
+  ],
+  "preferGlobal": "true",
+  "bin": {
+    "ticketme": "lib/ticketme.js"
+  }
+}
