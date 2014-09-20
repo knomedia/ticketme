@@ -71,8 +71,6 @@ ticketme -h
 
 ```
 
-![animated ticketme example]('ticketme.gif')
-
 ## Note
 
 The `pair` and `cr` commands are helper commands that are currently specific to
