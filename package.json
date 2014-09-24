@@ -1,7 +1,7 @@
 {
   "name": "ticketme",
   "description": "Quick jira ticket creator",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "homepage": "https://github.com/knomedia/ticketme",
   "author": {
     "name": "Jason Madsen",
