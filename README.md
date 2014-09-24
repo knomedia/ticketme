@@ -22,7 +22,7 @@ hosted, and set some defaults.
 
 ticketme -h
 
-  Usage: ticketme [options] [command]
+ Usage: ticketme [options] [command]
 
   Commands:
 
@@ -32,8 +32,11 @@ ticketme -h
     cr <gerrit-url>
        create and close a code-review ticket
 
-    pair <with-who>
+    pair <with-whom>
        create and close a pairing ticket
+
+    mine [show-all]
+       list open tickets assigned to you ([show-all] will give all tickets)
 
     new
        create a new jira ticket
