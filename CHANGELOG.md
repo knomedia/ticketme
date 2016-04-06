@@ -1,5 +1,10 @@
 # ticketme CHANGELOG
 
+V 0.0.7
+  [removed] cr command
+  [removed] pair command
+
+
 V 0.0.6
   [removed] reporter attribute for new tickets
 

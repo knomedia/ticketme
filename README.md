@@ -29,12 +29,6 @@ ticketme -h
     config
        edit global config options
 
-    cr <gerrit-url>
-       create and close a code-review ticket
-
-    pair <with-whom>
-       create and close a pairing ticket
-
     mine [show-all]
        list open tickets assigned to you ([show-all] will give all tickets)
 
@@ -73,11 +67,3 @@ ticketme -h
     $ ticketme show CNVS-15003
 
 ```
-
-## Note
-
-The `pair` and `cr` commands are helper commands that are currently specific to
-the Web Frameworks teams at [Instructure](http://www.instructure.com/). They
-create a ticket with specific labels on a specific project and move it to
-closed. This functionality is availabe using the `new` and then the `close`
-commands for other projects / teams.
